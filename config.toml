@@ -1,0 +1,80 @@
+baseUrl = "https://blog.gidzero.com/"
+languageCode = "en-US"
+title = "blog.gidzero.com"
+paginate = 5
+copyright = "All rights reserved - 2017"
+canonifyurls = true
+pluralizelisttitles = false
+theme = "casper"
+
+[params]
+  description = "Random musings and tutorials mainly on security and crypto"
+  metadescription = "Random musings and tutorials mainly on security and crypto"
+  cover = "images/cover.png"
+  author = "Colman Mbuya"
+  authorlocation = "Johannesburg, South Africa"
+  authorwebsite = "https://blog.gidzero.com/"
+  authorbio = "Security Guy"
+  logo = "images/logo_3.png"
+  # googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  # RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "colman-mbuya"
+  twitterName = "uid_zer0"
+  # facebookName = ""
+  linkedinName = "colman-mbuya-04748a37"
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false
+
+  # Setting a value will load highlight.js and enable syntax highlighting using the style selected.
+  # See https://github.com/isagalaev/highlight.js/tree/master/src/styles for available styles
+  # A preview of above styles can be viewed at https://highlightjs.org/static/demo/
+  # hjsStyle = "googlecode"
+
+[permalinks]
+post = "/:slug/"
+
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
+
+[params.social]
+  twitter = "uid_zer0"
+
+[[menu.main]]
+  name = "My Blog"
+  weight = 11
+  url = "/"
+
+[[menu.main]]
+  name = "About"
+  weight = 10
+  url = "/about"
+
+[[menu.main]]
+  pre = "\n<menu-section>Topics</menu-section>"
+  name = "Security"
+  url = "/tags/security/"
+  weight = -200
+
+[[menu.main]]
+  name = "Crypto"
+  url = "/tags/crypto/"
+  weight = -210
+
+[[menu.main]]
+  pre = "<menu-section>Follow me</menu-section>"
+  name = "Twitter"
+  url = "https://twitter.com/uid_zer0"
+  weight = -300
+
+[[menu.main]]
+  name = "Github"
+  url = "https://github.com/colman-mbuya"
+  weight = -310
+
+[[menu.main]]
+  name = "LinkedIn"
+  url = "http://www.linkedin.com/in/colman-mbuya-04748a37"
+  weight = -320
