@@ -1,4 +1,4 @@
-baseUrl = "https://blog.gidzero.com/"
+baseUrl = "https://blog.gidzero.com"
 languageCode = "en-US"
 title = "blog.gidzero.com"
 paginate = 5
@@ -13,7 +13,7 @@ theme = "casper"
   cover = "images/mining-2648005_1920_smaller.jpg"
   author = "Colman Mbuya"
   authorlocation = "Johannesburg, South Africa"
-  authorwebsite = "https://blog.gidzero.com/"
+  authorwebsite = "https://blog.gidzero.com"
   authorbio = "Security Guy"
   logo = "images/logo_3.png"
   # googleAnalyticsUserID = "UA-79101-12"
@@ -62,6 +62,11 @@ Priority = "-1"
   name = "Crypto"
   url = "/tags/crypto/"
   weight = -210
+
+  [[menu.main]]
+    name = "Tutorials"
+    url = "/tags/tutorial/"
+    weight = -220
 
 [[menu.main]]
   pre = "<menu-section>Follow me</menu-section>"
