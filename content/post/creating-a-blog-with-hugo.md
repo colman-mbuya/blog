@@ -160,7 +160,7 @@ This will create a ```public``` directory containing the generated site. Compres
 
 <pre class="command-line" data-user="colman" data-host="colman" data-output="">
 <code class="language-bash">cd public
-zip -R myblog.zip "*"*</code>
+zip -R myblog.zip "*"</code>
 </pre>
 
 Upload the zip file to your newly created website on AWS.

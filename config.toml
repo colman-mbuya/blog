@@ -10,7 +10,7 @@ theme = "casper"
 [params]
   description = "Random musings and tutorials mainly on security and crypto"
   metadescription = "Random musings and tutorials mainly on security and crypto"
-  cover = "images/mining-2648005_1920.jpg"
+  cover = "images/mining-2648005_1920_smaller.jpg"
   author = "Colman Mbuya"
   authorlocation = "Johannesburg, South Africa"
   authorwebsite = "https://blog.gidzero.com/"
